@@ -1,0 +1,11 @@
+{
+  "name": "pouchon-secure-bot",
+  "type": "python",
+  "start": "python pouchon_bot.py",
+  "env": {
+    "BOT_TOKEN": "8406972008:AAHTmNluGB3UD6Xmj2HVVB5YAguuj2mWk-k",
+    "PRIVATE_GROUP_ID": "-1003139716802",
+    "WEBHOOK_URL": "https://pella.dev" 
+  },
+  "ports": [8000]
+}
