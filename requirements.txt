@@ -4,3 +4,7 @@ uvicorn
 paystackapi
 aiohttp
 requests
+aiogram==3.0.0b7
+aiosqlite
+httpx
+python-dotenv

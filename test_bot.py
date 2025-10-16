@@ -1,11 +1,12 @@
-import asyncio
-import telegram
-from telegram.request import HTTPXRequest
+from pouchon_bot import handle_command  # Adjust if your bot has a main handler
 
-async def test():
-    request = HTTPXRequest(connect_timeout=30, read_timeout=30)
-    bot = telegram.Bot("8406972008:AAHTmNluGB3UD6Xmj2HVVB5YAguuj2mWk-k", request=request)
-    me = await bot.get_me()
-    print(me)
+# Simulate Telegram commands
+commands = [
+    "/start",
+    "/help",
+    "/your_custom_command"
+]
 
-asyncio.run(test())
+for cmd in commands:
+    response = handle_command(cmd)  # This should call the same function your bot uses
+    print(f"Command: {cmd}\nResponse: {response}\n{'-'*30}")
