@@ -57,12 +57,10 @@ if __name__ == "__main__":
 # ==================== CONFIG ====================
 # Temporary hardcoded values for testing
 BOT_TOKEN = "8406972008:AAHTmNluGB3UD6Xmj2HVVB5YAguuj2mWk-k"
-PAYSTACK_SECRET_KEY = "sk_live_8a8960b2063c3af5138381fc7a76d79d381f6ae4"
 PAYSTACK_PUBLIC_KEY = "pk_live_8814078e3e588386ebf5ed33119caac71e916a58"
 PRIVATE_GROUP_ID = -1008273608494
 ADMIN_IDS = [8273608494]
 # PayStack Keys - REAL LIVE KEYS
-PAYSTACK_SECRET_KEY = "sk_live_8a8960b2063c3af5138381fc7a76d79d381f6ae4"
 PAYSTACK_PUBLIC_KEY = "pk_live_8814078e3e588386ebf5ed33119caac71e916a58"
 paystack = Paystack(secret_key=PAYSTACK_SECRET_KEY)
 
