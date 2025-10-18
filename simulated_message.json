@@ -1,0 +1,20 @@
+{
+  "update_id": 100000000,
+  "message": {
+    "message_id": 1,
+    "from": {
+      "id": 8273608494,
+      "is_bot": false,
+      "first_name": "Test",
+      "username": "testuser"
+    },
+    "chat": {
+      "id": 8273608494,
+      "first_name": "Test",
+      "username": "testuser",
+      "type": "private"
+    },
+    "date": 1739629200,
+    "text": "/start"
+  }
+}

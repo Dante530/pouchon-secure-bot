@@ -1,9 +1,16 @@
-FROM python:3.11-slim
+FROM python:3.9-slim
 
 WORKDIR /app
-COPY . /app
 
+# Copy requirements and install dependencies
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 8000
-CMD ["python3", "pouchon_bot.py"]
+# Copy application code
+COPY . .
+
+# Expose the port Railway uses
+EXPOSE 8080
+
+# Start the application
+CMD ["python", "pouchon_bot.py"]

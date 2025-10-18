@@ -1,0 +1,27 @@
+{
+  "update_id": 100000001,
+  "message": {
+    "message_id": 123,
+    "from": {
+      "id": 8273608494,
+      "is_bot": false,
+      "first_name": "Test",
+      "username": "testuser"
+    },
+    "chat": {
+      "id": 8273608494,
+      "first_name": "Test",
+      "username": "testuser", 
+      "type": "private"
+    },
+    "date": 1739629200,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}

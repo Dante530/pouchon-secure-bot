@@ -1,0 +1,14 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python pouchon_bot.py"
+
+[[services]]
+name = "web"
+port = 8080
+
+[services.healthcheck]
+path = "/health"
+timeout = 10
+interval = 30
